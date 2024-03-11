@@ -25,7 +25,7 @@ MENU SECTION ANIMATION
     /*background-color: #052136;*/
     cursor: pointer;
     transition-property: background;
-    transition-duration: 0.4s;
+    transition-duration: .4s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
 }
@@ -74,6 +74,7 @@ photo-overlay {
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center; /*For centering text inside .photo-overlay*/
+    align-items: center;
     background: rgba(0, 0, 0, 0.5);
 }
 
