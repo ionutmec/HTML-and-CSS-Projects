@@ -87,7 +87,7 @@ section {
 .navbar {
     height: 105px;
     max-height: 340px;
-    display: inline-block;
+    display: block;
 }
 
 container {
@@ -147,8 +147,8 @@ container {
 HOME SECTION STYLES
 --------------------------------------------------*/
 #home {
-    background: url(../images/planets.jpg) no-repeat 50% 50%;
-background-attachment:fixed;
+background: url(../images/planets.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -166,10 +166,10 @@ color: #fff;
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
-    word-spacing: 5pt;
+    word-spacing: 21pt;
     font-size: 4.5em;
     text-align: left;
-    font-family: Impact, sans-serif;
+    font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
     border: 5px double #fff;
@@ -201,15 +201,15 @@ CONTACT STYLES
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: (100, 65, 0, .3);
+    background-color: rgba(100, 65, 0, .3);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 contact {
-    background-color: 'f5f3f3';
+    background-color: #f5f3f3;
 }
 
-reservation {
+.reservation {
     width: 60%;
     padding: 10px;
     border-radius: 8px;
@@ -253,14 +253,14 @@ reservation {
         outline: none;
         font-weight: 600;
         color: #8D8E8F;
-        padding: 12px 12 px;
+        padding: 12px 12px;
         width: 70%;
-        border: 1px solid #808088;
+        border: 1px solid #808080;
         margin: 2% auto;
         border-radius: 7px;
         background: rgb(227, 222, 222);
         box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
-        font-family: 'Relaway', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
 .reservation input[type="text"] {
@@ -271,6 +271,9 @@ reservation {
         padding: 2% 1% 2% 7%;
         width: 80%;
         border-top: 1px solid #090B0D;
+        border-right: 2px solid #424549;
+        border-bottom: 2px solid #424549;
+        border-left: 1px solid #090B0D;
         margin: 10px 1em;
         border-radius: 7px;
         background: #13161B;
@@ -279,7 +282,7 @@ reservation {
     }
 
 .reservation input[type="text"]:hoover {
-        box-shadow: 0 0 18px rgba(100, 65, 0, .8);
+        box-shadow: 0 0 10px rgba(100, 65, 0, .8);
     }
 
 .form-spacer {
@@ -287,10 +290,9 @@ reservation {
     }
 
 .terms {
-        margin: 30px 1px 0 0;
+        margin: 23px 41px 0 0;
         margin-top: 13%;
-        padding-left: 52px;
-        font-size: 14px;
+       
         line-height: 5px;
         color: #000;
         cursor: pointer;
