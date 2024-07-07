@@ -1,193 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>The Space Station 1 Resort </title>
-	<meta charset="utf-8">
-	<a href="https://learncodinganywhere.com/" target="new">The Tech Academy</a><br>
-	<em>This text is emphasized.</em>
-</head>
-<body>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="device-width"/>
+        <title>Ionut Mecu</title>
+        <link rel="stylesheet" type="text/css" href="./project/my portofolio/portfolio.css"/>
+    </head>
+
+    <body class="Background">
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#home">Home</a>
+            <a class="#About">About</a>
+            <a class="#GitHub">GitHub</a>
+            <a class="#Contact">Contact</a>
+        </div>
+        <!--Break insert to add space-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./project/my portofolio/Typing.mp4" type="video/mp4">
+
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Ionut Mecu's Portofolio</h1>
+            <strong>
+                <p class="center">
+                <q>It's fine to celebrate success but it is more important to heed the lessons of failure.”.
+                    <br>“Humanity’s greatest advances are not in its discoveries, but in how those discoveries are applied to reduce inequity.”
+                    <br>“In this business, by the time you realize you’re in trouble, it’s too late to save yourself. Unless you’re running scared all the time, you’re gone.
+                </q>
+                <br> -Bill Gates
+                <br>
+                <br> My name is Ionut Mecu. Welcome to my portfolio website. I will tell you about my background and experience.
+                <br>
+                <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./project/my portofolio/images/b.jpg" alt="My image">
+            </div>
+         
+            <!--Right column-->
+            <div class="Column_1">
+             <h1>About</h1>
+             <p>I am a person who wants to find their destiny. I was an engineer in metalurgy (pouring steel) but my place is here, coding.
+                <br>I am a father of 2 beautiful kids.
+                <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>
+                's Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, and be ready in December for SQL, C# and more.
+                <br>
+                <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+             </p>
+            </div>
+        </div>
+
+        <!--Github section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:<!--Error-->
+                    <br>
+                    <p class="center"><a href="https://github.com/ionutmec/HTML-and-CSS-Projects/tree/main/project" target="_blank">My projects</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <img src="./project/my portofolio/images/GitHub.png" alt="GitHub Logo">
+            </div>
+        </div>
+        
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+                <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./project/my portofolio/images/1.jpg" alt="Contact_Img">
+            </div>
+                <!--Contact form right image-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies wher and how to send form data; we are leaving blank -->
+                <form action="" method="post"><!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
 
 
-	<!--NAV-->
-	<div>
-	  <div>
-	    <ul>
-		   <a href="#home" id="link"><li>HOME</li></a>
-		   <a href="#gallery" id="link"><li>GALLERY</li></a>
-		   <a href="#contact" id="link"><li>RESERVATIONS</li></a>
-		</ul>
-	  </div>
-	</div>
-	<!--END NAV-->
-	
-	<!--HOME-->
-	<div id="home">
-	  <div>
-	    <ul>
-		   <span>The Space Station</span>
-		</ul>
-	  </div>
-	</div>
-	<!--END HOME-->
-	
-	<!--GALLERY-->
-	<section>
-	  <div id="gallery">
-	    <h1>Gallery</h1>
-		<div>
-		
-		<!--PHOTO-CONTAINER 1 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\messi.jpg" alt="Messi">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 1 -->
-		
-		<!--PHOTO-CONTAINER 2 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\cronaldo.jpg" alt="Cristiano Ronaldo">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 2 -->
-		
-		<!--PHOTO-CONTAINER 3 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\pele.jpg" alt="Pele">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 3 -->
-		
-		<!--PHOTO-CONTAINER 4 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\maradona.jpg" alt="Maradona">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 4 -->
-		
-		<!--PHOTO-CONTAINER 5 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\van_basten.jpg" alt="Marco Van Basten">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 5 -->
-		
-		<!--PHOTO-CONTAINER 6 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\ronaldo.jpg" alt="Ronaldo">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 6 -->
-		
-		<!--PHOTO-CONTAINER 7 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\ronaldinho.jpg" alt="Ronaldinho">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 7 -->
-		
-		<!--PHOTO-CONTAINER 8 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\cruyff.gif" alt="Cruyff">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 8 -->
-		
-		<!--PHOTO-CONTAINER 9 -->
-		<div>
-		   <div>
-		   <img style="height:192px;width:204px" src=".\images\thumb\bekenbauer.jpg" alt="Bekenbauer">
-		      <div>
-			     <h3>Click to Enlarge</h3>
-				 <p>We have several space launches departing daily, book your flight to</p>
-			  </div>
-		   </div>
-		</div>
-		<!--END PHOTO-CONTAINER 9 -->
-		
-		</div>
-	  </div>
-	</section>
-	 <!--END GALLERY -->
-	 
-	 <!--RSVP -->
-	<section>
-		<div id="contact">
-			<div>
-				<h1>Reservations</h1>
-				<div>
-					<h2><span>Your adventure is just around the moon.</span>
-						<br/>Reserve your flight today!
-					</h2>
-					<p>
-						Please provide us with your basic contact information.
-					</p>
-					<div>
-						<form action="" method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
-							<div class="form-spacer">
-								<label class="terms">Terms and Conditions</label>
-							</div>
-							<div>
-								<input type="submit" value="Submit">
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--END RSVP -->
-	
-	<!--FOOTER-->
-	<div>
-		https://www.youtube.com/watch?v=B0qAKvjH2kg
-	</div>
-	<!--END FOOTER-->
-	
-</body>
+
+
+    </body>
+
 </html>
-
